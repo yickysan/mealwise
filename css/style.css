@@ -270,3 +270,24 @@ a.order::before{
     font-weight: 500;
     color: var(--button-color);
 }
+
+@media(max-width: 500px){
+    article{
+        display: grid;
+        padding: 0;
+    }
+
+    .dessert-body{
+        display: grid;
+        grid-auto-columns: 50%;
+        grid-auto-flow: column;
+    }
+
+    .resto-options{
+        grid-auto-columns: 80%;
+    }
+
+    a.order{
+        margin-left: 16rem;
+    }
+}
