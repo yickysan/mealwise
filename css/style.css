@@ -169,6 +169,7 @@ span.price{
     padding: 2em 3em;
     gap: 2rem;
     justify-content: center;
+    align-items: center;
 }
 
 #find-resto{
