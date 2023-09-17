@@ -9,21 +9,6 @@
     --p-font: 1.1rem;
 }
 
-@media(prefers-color-scheme: dark){
-    :root{
-        --bg-color: hsl(40, 7%, 9%);
-        --text-color: rgb(255, 255, 255);
-    }
-    
-   .btn{
-    background-color: var(--bg-color);
-   }
-
-  .card{
-      background-color: rgba(0, 0, 0, 0.8);
-  }
-    
-} 
 
 main{
     background-color: rgb(71, 68, 68);
@@ -142,6 +127,7 @@ p.landing-text{
     grid-auto-columns: 33%;
     grid-auto-flow: column;
     overflow-x: auto;
+    scrollbar-width: none;
 }
 .dessert-image{
     display: grid;
@@ -235,6 +221,7 @@ span.price{
     margin-top: -5rem;
     gap: 0.5rem;
     overflow-x: auto;
+    scrollbar-width: none;
 }
 
 ::-webkit-scrollbar{
@@ -247,6 +234,7 @@ span.price{
     background-color: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(0.3rem);
     padding-left: 0.8rem;
+    padding-right: 0.2rem;
     padding-top: 1rem;
 }
 
@@ -306,3 +294,25 @@ a.order::before{
         margin-left: 16rem;
     }
 }
+
+@media(prefers-color-scheme: dark){
+    :root{
+        --bg-color: hsl(40, 7%, 9%);
+        --text-color: rgb(255, 255, 255);
+        --p-cololor: rgb(230, 236, 236);
+    }
+
+    label{
+        color: var(--bg-color);
+    }
+    
+   .btn{
+    background-color: var(--bg-color);
+   }
+
+  .card{
+      background-color: rgba(0, 0, 0, 0.8);
+ 
+  }
+    
+} 
