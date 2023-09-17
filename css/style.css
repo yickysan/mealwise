@@ -194,7 +194,6 @@ span.price{
     margin-left: -8rem;
     height: 350px;
     width: 500px;
-    border: 1px solid red !important;
     clip-path: circle();
 }
 
