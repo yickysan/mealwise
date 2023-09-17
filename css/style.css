@@ -179,7 +179,7 @@ span.price{
 
 
 .sign-in{
-    width: 5rem;
+    width: 4rem;
     height: 2rem;
     padding: 0.2rem 0 0.2rem 0;
     text-align: center;
@@ -188,7 +188,7 @@ span.price{
     color: var(--button-color);
     background-color: var(--text-color);
     flex-shrink: 0;
-    margin-right: 0.8rem;
+    margin-right: 0.5rem;
 }
 
 
