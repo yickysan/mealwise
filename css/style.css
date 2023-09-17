@@ -213,7 +213,7 @@ span.price{
 .resto-options{
     width: 100%;
     position: absolute;
-    padding-left: 0.5rem;
+    padding-inline: 0.5rem;
     display: grid;
     grid-auto-columns: 60%;
     grid-auto-flow: column;
