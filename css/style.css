@@ -187,6 +187,8 @@ span.price{
     border: 1px solid grey;
     color: var(--button-color);
     background-color: var(--text-color);
+    flex-shrink: 0;
+    margin-right: 0.8rem;
 }
 
 
